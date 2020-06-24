@@ -3,6 +3,7 @@
  *
  * Be easy enough to hack this and provide a z value for position shift
  *
+ * by jostha :: https://github.com/jostha
  */
 
 #include <stdio.h>
