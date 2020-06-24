@@ -1,10 +1,12 @@
 /*
- * Vigenere cipher increased each character by one place in alphabet.
+ * Vigenere cipher uses keyword to encrypt.
  *
  * All performed in capitals
  *
  * by jostha :: https://github.com/jostha
  */
+
+// TODO : Decrypter
 
 #include <stdio.h>
 #include <string.h>
@@ -15,7 +17,7 @@ int main(){
 
 	int 	x;
 	char 	msg[255],
-	 		key[255];
+			key[255];
 
 	printf ("\nEnter text to encode: ");
 	gets(msg);
@@ -59,5 +61,4 @@ void upcase(char inp[]){
 		}
 		i++;
 	}
-	//inp[i]='\0';
 }
